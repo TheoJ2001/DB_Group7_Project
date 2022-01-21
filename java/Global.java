@@ -14,8 +14,8 @@ public class Global {
 
     public static Connection getDatabaseConnection() throws SQLException{
         Connection con;
-        String url = "pgserver.mau.se";
-        String conID = "G7_store";
+        String url = "jdbc:postgresql://localhost:5432/g7_store";
+        String conID = "g7_store";
         String  conPWD = "zcj7erle";
 
         try{
